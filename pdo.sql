@@ -79,14 +79,6 @@ CREATE TABLE `medarbejder` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `medarbejder`
---
-
-INSERT INTO `medarbejder` (`Person_ID`, `Adgangskode`, `CPR`, `Fornavn`, `Efternavn`, `Titel`, `TlfNr`) VALUES
-(111, 'qwerty', 1111111111, 'Jan', 'Nalepa', 'Slave', 222222222),
-(222, 'qwerty', 333333333, 'Marcin', 'BeerLover', 'Designer', 44343254),
-(123456789, 'qwerty', 1122334455, 'Oskar', 'Kulpa', 'Boss', 99999999);
-
 -- --------------------------------------------------------
 
 --
